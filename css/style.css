@@ -1,0 +1,417 @@
+.body1{
+	overflow-x:hidden; 
+}
+/* header style starts*/
+
+.header-container {
+	padding: 20px 0px;
+	text-align: center;
+	border-bottom: 1px solid #E0E0E0;
+	position: fixed;
+	width:100vw;
+	top:0;
+	background: #FFF;
+	z-index: 1;
+
+}
+
+.header-container  a{
+	text-decoration: none;
+	color: #616161;
+}
+.header-container a:hover{
+	color: black;
+}
+
+.logo-text {
+	font-size: 20px;
+	color:#616161;
+	margin-right: -50px;
+}
+
+nav {
+	font-size: 16px;  
+}
+
+.nav div{
+	padding: 0;
+	margin: 0;
+}
+
+
+.social-icons img{
+	width: 19%;
+	margin: 2px;
+}
+
+.ff{
+	width: 170px;
+}
+
+.puit{
+	width:200px;
+}
+
+.wwd{
+	width:150px;
+}
+
+.tt{
+	width:130px;
+}
+
+/*header style ends*/
+
+/*intro page style starts*/
+.intro{
+	background: url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050");
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+
+	background-attachment: fixed;
+   
+    margin-top: 70px;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+}
+
+.intro-text-container{
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	text-align: center;
+	color: #FFF;
+}
+
+.heading-text{
+	font-size: 90px;
+}
+.intro-description{
+	font-size: 20px;
+}
+
+/*intro page style ends*/
+
+
+/*general section properties starts*/
+.fb:hover, .twitter:hover, .google-plus:hover, .dribbble:hover, .linkedin:hover{
+	background-color: red;
+}
+
+.section-container{
+	margin-top: 100px;
+	text-align: center;
+	padding-top: 20px;
+	width: 100vw;
+}
+
+.gap{
+	margin-top: 40px;
+}
+.section-heading{
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.section-container hr {
+	border-color: #c5a47e;
+}
+
+
+/*general section properties ends*/
+
+
+
+/*about style starts*/
+
+.about-container p {
+	font-size: 26px;
+    color: #777777;
+    margin-bottom: 100px;
+}
+.about-container .row {
+/*	width: 100vw;    */
+}
+
+.about-container img {
+	padding-bottom: 30px;
+	width:100%;
+}
+/*about style starts*/
+
+
+
+
+/*what we do section starts*/
+
+.what-we-do img{
+	width:25%;
+}
+
+.what-we-do p{
+	 color: #777777;
+	 margin: 10px;
+	 padding: 0 30px;
+	 font-size: 20px;
+
+}
+
+/*what we do section ends*/
+
+
+/*famous freebies and our premium UI tools section starts*/
+
+
+.freebies-container p{
+	font-size: 18px;
+	color: #9E9E9E;
+	margin: 15px;
+}
+
+.freebies-container img{
+	width: 90%;
+}
+
+.line1{
+	font-size: 18px;
+	color: #757575;
+}
+.line2{
+	font-size: 26px;
+
+}
+.row1{
+	margin: 40px 0;
+}
+.row3{
+	margin: 0px 120px;
+}
+.freebies-container img{
+	margin-bottom: 20px;
+}
+.freebies-container .b1{
+	border-radius: 50px;
+    background: white;
+    font-size: 17px;
+    padding: 5px 15px;
+    border-color: gray;
+    color: #BDBDBD;
+    margin-right: 5px;
+    box-shadow: none;
+    border: 2px solid;
+
+}
+.freebies-container .b2{
+	border-radius: 50px;
+    background: gray;
+    font-size: 17px;
+    padding: 5px 15px;
+    color: white;
+    border: 0px;
+}
+
+/*famous freebies and our premium UI tools section ends*/
+
+/* what people thinks section starts*/
+
+.p-hide{
+	display: none;
+}
+.testimonial-container{
+	color: #757575;
+	font-size: 23px;
+}
+
+.part1{
+	margin-bottom: 50px;
+}
+.testimonial a{
+	text-decoration: none;
+	color: #c5a47e;
+}
+
+/* what people thinks section ends*/
+
+
+/* meet our team section starts*/
+
+.team-img img{
+	border-radius: 100px;
+	width: 40%;
+	height: 40%;
+	border: 2px solid #c5a47e;
+}
+
+.social img{
+	width: 10%;
+	margin: 2px;
+}
+
+.our-team-container .name{
+	padding: 20px;
+    font: 19px bold;
+
+}
+.our-team-container .about-name{
+	color: #777777; 
+	text-align: center;
+	padding: 0 20px;
+	font-size: 15px;
+
+
+}
+
+
+/* meet our team section ends*/
+
+
+
+
+/*numbers dont lie section starts*/
+
+.number-container p{
+	font-size: 20px;
+	color: #757575;
+	margin-bottom: 70px;
+}
+
+.line11{
+	font: 30px bold;
+	color: black;
+	margin: 30px;
+}
+.line12{
+	font: 25px bold;
+	color: black;
+	margin: 30px;
+}
+.line13{
+	font-size: 35px ;
+	color: #c5a47e;
+	margin: 30px;
+}
+
+
+
+/*numbers dont lie section ends*/
+
+/* contacts and map section starts*/
+
+#map {
+	margin-top: 60px;
+	height: 550px;
+    width: 100%;
+    position: relative;
+}
+
+.contact{
+	position: relative;
+}
+.address h3{
+	margin: 25px;
+}
+.address h4{
+	margin: -10px 25px 5px 25px;
+	padding: 15px;
+}
+.address{
+	height: 470px;
+	width:400px;
+	background-color: #FFFFFF;
+	position: absolute;
+    	left: 0px;
+    	z-index: 99;
+    	margin: 100px 0;
+}
+.address .social button{
+	background: #fff;
+	border: 1px solid #777;
+	padding: 10px;
+	width: 100%;
+	margin-left: 5px; 
+	margin-top: -5px;
+	border-radius:2px; 
+}
+.contact-us button{
+	background: #424242;
+    font-size: 15px;
+    width:200px;
+    padding: 10px;
+    color: white;
+    box-shadow: none;
+    margin: 15px;
+
+}
+
+/* contacts and map section ends*/
+
+/*footer styling starts*/
+.footer{
+	background: #212121;
+	color:#757575;
+	text-align: center;
+	padding: 20px;
+}
+.footer img{
+	margin: 0 5px;
+	background: gray;
+}
+
+/*footer styling ends*/
+
+/*media query starts*/
+
+@media screen and (max-width: 420px){
+	
+	.logo-text{
+		font-size: 40px;
+	}
+	.intro{
+		margin-top: 200px;
+		    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    top: 0px;
+	}
+	.heading-text{
+		font-size: 50px;
+	}
+	.intro-text-container {
+			font-size: 3em;
+			margin-top: 2.5em;
+	}
+	.body1{
+		width: 100vw;
+	}
+	.intro{
+		width: 100%
+		height:100vh;
+	}
+	.wwd{
+		width: 199px;
+	}
+	.ff{
+		width: 199px;
+	}
+	.tt{
+		width: 199px;
+	}
+	.social-icons img{
+		width: 10%;
+	}
+	.icon-container{
+		margin-left: 150px;
+	}
+	.intro-text-container{
+	position: absolute;
+	top: 25%;
+	left: 2%;
+	text-align: center;
+	color: #FFF;
+}
+}
+
+/*media query ends*/
